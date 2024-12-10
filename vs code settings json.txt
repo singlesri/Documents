@@ -1,0 +1,27 @@
+{
+    "workbench.colorTheme": "Flate",
+    "files.autoSave": "afterDelay",
+    "workbench.editor.enablePreview": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.guides.bracketPairs": "active",
+    "indentRainbow.colors": [
+        "#5733FF33",
+    "#8D33FF33",
+    "#C133FF33",
+    "#F033FF33",
+    "#FF33DF33",
+    "#FF33AF33",
+    "#FF337F33",
+    "#FF334F33"
+    ],
+    "hediet.vscode-drawio.resizeImages": null,
+    "terminal.integrated.env.windows": {}
+}
