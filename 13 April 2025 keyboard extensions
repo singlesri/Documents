@@ -153,4 +153,12 @@
         "command": "selectNextSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
     },
+    {
+        "key": "alt+x",
+        "command": "undo"
+    },
+    {
+        "key": "alt+q",
+        "command": "redo"
+    },
 ]
