@@ -1,0 +1,156 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+n",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "welcome.showNewFileEntries"
+    },
+    {
+        "key": "ctrl+alt+win+n",
+        "command": "-welcome.showNewFileEntries"
+    },
+    {
+        "key": "ctrl+shift+alt+down",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+i",
+        "command": "editor.action.goToBottomHover",
+        "when": "editorHoverFocused"
+    },
+    {
+        "key": "end",
+        "command": "-editor.action.goToBottomHover",
+        "when": "editorHoverFocused"
+    },
+    {
+        "key": "alt+m",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "alt+n",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "alt+i",
+        "command": "cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "right",
+        "command": "-cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "left",
+        "command": "-cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+j",
+        "command": "cursorWordLeft",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "ctrl+left",
+        "command": "-cursorWordLeft",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "alt+oem_1",
+        "command": "cursorPageDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "pagedown",
+        "command": "-cursorPageDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "left",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "left",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "right",
+        "command": "cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+left",
+        "command": "cursorWordLeft",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "alt+k",
+        "command": "cursorWordEndRight",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "cursorWordEndRight",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "alt+9",
+        "command": "cursorUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+0",
+        "command": "cursorDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+y",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+u",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+oem_7",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "selectAllSearchEditorMatches",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "ctrl+f8",
+        "command": "workbench.action.editor.changeLanguageMode",
+        "when": "!notebookEditorFocused"
+    },
+    {
+        "key": "alt+f",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+d",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+    },
+]
